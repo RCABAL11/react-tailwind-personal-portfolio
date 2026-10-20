@@ -1,19 +1,27 @@
 const experiences = [
   {
-    period: "2022 - Present",
-    role: "Junior Full Stack Developer",
+    period: "2022 - 2026",
+    role: "Lead Developer (Academic Project)",
     company: "Danao Technological College",
     description:
-      "Build and maintain multiple features of Integrated Academic Management System.",
+      "Led the development of the Integrated Academic Management System (IAMS) as my capstone project. Built a full-stack web application using Laravel and MySQL to automate the college's grading workflow and implement role-based access control.",
     technologies: ["Laravel", "Blade", "Bootstrap", "MySQL"],
     current: true,
   },
   {
-    period: "2016 - 2022",
-    role: "Junior Frontend Developer",
+    period: "Feb 2026 - May 2026",
+    role: "IT Support Intern",
+    company: "DPWH Bohol 3rd District Engineering Office",
+    description: "Delivered technical support across engineering and administrative departments. Resolved workstation issues, performed software installations, and demonstrated strong troubleshooting logic—skills essential for a developer.",
+    technologies: ["IT Support", "Hardware", "Troubleshooting", "LAN"],
+    current: false,
+  },
+  {
+    period: "Oct 2016 - Aug 2022",
+    role: "Team Member, NRW Operations",
     company: "Maynilad Water Services Inc.",
-    description: "Leading frontend architecture for a suite of MWSI web page.",
-    technologies: ["React", "Typescr ", "Bootstrap", "MySQL"],
+    description: "Maintained consistent performance metrics in a high-volume corporate environment. Resolved customer concerns and technical issues, developing the strong communication and problem-solving skills required for team-based software development.",
+    technologies: ["Problem Solving", "Communication", "Operations"],
     current: false,
   },
 ];
@@ -37,8 +45,7 @@ export const Experience = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A timeline of my professional growth , from curious beginner to
-            senior engineer leading teams and building products and scale.
+            A timeline of my professional growth, from building foundational academic projects to delivering hands-on technical support and full-stack web applications.
           </p>
         </div>
 

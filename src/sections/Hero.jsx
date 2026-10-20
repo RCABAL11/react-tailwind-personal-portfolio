@@ -2,21 +2,23 @@ import { Button } from "@/components/button";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { useDownload } from '@/hooks/useDownload';
+import { SocialLinks } from "@/components/SocialLinks";
 
 const skills = [
   "PHP",
   "Laravel",
   "Filament",
-  "React",
   "Node.js",
   "MySQL",
+  "WordPress",
+  "React",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Git & GitHub",
+  "GitHub Actions",
   "Docker",
   "Vercel",
-  "Bootstrap",
-  "Tailwind CSS",
   "Figma",
-  "Git",
-  "GitHub Actions",
 ];
 
 export const Hero = () => {
@@ -61,33 +63,33 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                PHP Developer • Laravel Framework
+                Junior Web Developer • Laravel & React
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+                Building <span className="text-primary glow-text"> efficient </span>
                 <br />
-                experiences with
+                 web apps with
                 <br />
                 <span className="font-serif italic font-normal text-white">
                   precision
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Reymart Cabal, a passionate PHP Developer specializing
-                in the Laravel framework. I create seamless digital experiences
-                with precision and dedication.
+                Hi, I'm Reymart Cabal, a Cum Laude Information Systems graduate and Junior Web Developer. I specialize in PHP and Laravel to build seamless, full-stack web applications and automate workflows.
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
+              <a href="#contact">
+                <Button size="lg">
+                  Contact Me <ArrowRight className="w-5 h-5" />
+                </Button>
+              </a>
               <AnimatedBorderButton onClick={downloadCV}>
                 <Download className="w-5 h-5"/>
                 Download CV
@@ -95,22 +97,10 @@ export const Hero = () => {
             </div>
 
             {/* Social Links */}
-            {/* <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-                    <span className="text-sm text-muted-foreground">Follow me: </span>
-                    {[
-                        { icon: Github, href: "#" },
-                        { icon: Linkedin, href: "#" },
-                        { icon: Twitter, href: "#" },
-                    ].map((social, idx) => (
-                        <a
-                        key={idx}
-                        href={social.href}
-                        className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
-                        >
-                        {<social.icon className="w-5 h-5" />}
-                        </a>
-                    ))}
-                    </div> */}
+            <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
+              <span className="text-sm text-muted-foreground">Follow me:</span>
+              <SocialLinks />
+            </div>
           </div>
           {/* Right Column - Profile Image */}
           <div className="relative animate-fade-in animation-delay-300">
@@ -140,7 +130,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">2+</div>
                   <div className="text-xs text-primary">Years Exp.</div>
                 </div>
               </div>

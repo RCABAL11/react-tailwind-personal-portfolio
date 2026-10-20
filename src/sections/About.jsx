@@ -49,36 +49,19 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I do two different things — web development and virtual
-                assistance. They're separate services, so you can hire me for
-                whichever one you actually need (or both, if that's the case).
+                I am a Full-Stack Web Developer specializing in PHP and Laravel. As a Cum Laude graduate with a Bachelor of Science in Information Systems, I focus on building robust, full-stack applications that automate workflows and solve real-world problems.
               </p>
               <p>
-                For web dev: I build full-stack apps with Laravel, MySQL, and
-                vanilla JS. Recent projects include an academic management
-                system used by an actual college, a hotel booking system, and a
-                car dealership website. That said, I'm not tied to one stack —
-                I'm willing to learn whatever the company or client uses. For VA
-                work: I handle data entry, bookkeeping, executive admin tasks,
-                and social media management. Pretty standard stuff, but I do it
-                accurately and on time.
+                For my capstone project, I led the development of an Integrated Academic Management System (IAMS) using Laravel, MySQL, and React to automate a college's entire grading workflow. I am highly adaptable and not tied to one stack — I am always eager to learn whatever technologies a team uses to deliver the best results.
               </p>
               <p>
-                Before going back to school, I spent 6 years at Maynilad Water
-                Services, so I know how to work in structured environments and
-                show up consistently. I just graduated — Cum Laude, Information
-                Systems. Open to freelance projects, part-time VA work, or
-                remote entry-level dev roles. Based in the PH, available
-                worldwide. Feel free to reach out if either track fits what
-                you're looking for.
+                Before returning to school, I spent 6 years at Maynilad Water Services, where I developed strong discipline, problem-solving skills, and the ability to thrive in high-volume corporate environments. I am now fully focused on bringing my technical skills and dedication to an entry-level or Junior Web Developer role.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to create digital experiences that are not just functional, but truly delightful — products that users love to use and developers love to maintain."
               </p>
             </div>
           </div>

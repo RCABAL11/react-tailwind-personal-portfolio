@@ -5,16 +5,25 @@ const projects = [
   {
     title: "Integrated Academic Management System",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellat itaque atque quae veritatis aperiam, mollitia eligendi quis doloribus! Laboriosam.",
-    image: "/projects/project1.png",
+      "A full-stack web application built from scratch to automate an entire college's grading workflow. Features secure authentication and role-based access control to streamline manual processing for faculty and administrators.",
+    image: "/projects/project4.png",
     tags: ["Laravel", "Blade", "Bootstrap", "MySQL"],
-    link: "#",
-    github: "#",
+    link: "https://github.com/RCABAL11/iams.git",
+    github: "https://github.com/RCABAL11/iams.git",
+  },
+  {
+    title: "Personal Developer Portfolio",
+    description:
+      "A responsive, modern portfolio website designed and developed to showcase my technical projects and skills. Built with a component-based architecture, featuring smooth animations, a dark-mode UI, and a fully mobile-responsive layout.",
+    image: "/projects/project4.png",
+    tags: ["React", "Tailwind CSS", "Vercel"],
+    link: "#project",
+    github: "#project",
   },
   {
     title: "Car Dealership Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellat itaque atque quae veritatis aperiam, mollitia eligendi quis doloribus! Laboriosam.",
+      "A dynamic vehicle inventory platform that allows users to browse available cars, filter by specifications, and view detailed listings. Built with a focus on clean database architecture and an intuitive user interface.",
     image: "/projects/project2.png",
     tags: ["PHP Native", "Bootstrap", "MySQL"],
     link: "#",
@@ -23,7 +32,7 @@ const projects = [
   {
     title: "Hotel Booking Reservation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellat itaque atque quae veritatis aperiam, mollitia eligendi quis doloribus! Laboriosam.",
+      "A web-based reservation system that streamlines the room booking process. Includes availability checking, secure reservation forms, and a dashboard for managing bookings without page reloads using AJAX.",
     image: "/projects/project3.png",
     tags: ["PHP Native", "AJAX", "Bootstrap", "MySQL"],
     link: "#",
