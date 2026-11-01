@@ -6,7 +6,7 @@ const projects = [
     title: "Integrated Academic Management System",
     description:
       "A full-stack web application built from scratch to automate an entire college's grading workflow. Features secure authentication and role-based access control to streamline manual processing for faculty and administrators.",
-    image: "/projects/project4.png",
+    image: "/projects/project1.png",
     tags: ["Laravel", "Blade", "Bootstrap", "MySQL"],
     link: "https://github.com/RCABAL11/iams.git",
     github: "https://github.com/RCABAL11/iams.git",
@@ -20,15 +20,15 @@ const projects = [
     link: "#project",
     github: "#project",
   },
-  {
-    title: "Car Dealership Website",
-    description:
-      "A dynamic vehicle inventory platform that allows users to browse available cars, filter by specifications, and view detailed listings. Built with a focus on clean database architecture and an intuitive user interface.",
-    image: "/projects/project2.png",
-    tags: ["PHP Native", "Bootstrap", "MySQL"],
-    link: "#",
-    github: "#",
-  },
+  // {
+  //   title: "Car Dealership Website",
+  //   description:
+  //     "A dynamic vehicle inventory platform that allows users to browse available cars, filter by specifications, and view detailed listings. Built with a focus on clean database architecture and an intuitive user interface.",
+  //   image: "/projects/project2.png",
+  //   tags: ["PHP Native", "Bootstrap", "MySQL"],
+  //   link: "#",
+  //   github: "#",
+  // },
   {
     title: "Hotel Booking Reservation",
     description:
