@@ -69,12 +69,14 @@ export const Contact = () => {
         message: "Message sent successfully! I'll get back to you soon.",
       });
       setFormData({ name: "", email: "", message: "" });
-    } catch (err) {
+    } catch (error) {
       console.error("EmailJS error:", error);
-      submitStatus({
+      setSubmitStatus({
         type: "error",
         message:
-          error.text || "Failed to send message. Please try again later.",
+          error?.text ||
+          error?.message ||
+          "Failed to send message. Please try again later.",
       });
     } finally {
       setIsLoading(false);
